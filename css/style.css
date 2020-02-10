@@ -1,0 +1,27 @@
+header{
+    background-color: blue;
+}
+
+.brand{
+    background-color: aqua;
+}
+
+.products{
+    background-color: darkred;
+}
+
+.services{
+    background-color: yellow;
+}
+
+.brands{
+    background-color: red;
+}
+
+.payMethods{
+    background-color: green;
+}
+
+footer{
+    background-color: gray;
+}
