@@ -17,20 +17,49 @@ h1{
     background-color: beige;
 }
 
-header{
-    background-color: blue;
+.header{
+    background-color:  #3729b9;
+}
+
+.info{
+    height: 50px;
+}
+
+.menu{
+    background-color:  #2980b9;
+    color: white;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
 }
 
 .hero{
-    background-color: aqua;
+    background-image: url('../images/LOGOWSG222.png');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 300px;
 }
 
 .products{
     background-color: darkred;
 }
 
+.product{
+    background-color: green;
+    display: inline-block;
+    width: 25%;
+}
+
 .services{
     background-color: yellow;
+}
+
+.service{
+    display: inline-block;
+    width: 33%;
 }
 
 .brands{
