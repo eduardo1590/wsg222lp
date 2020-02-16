@@ -11,28 +11,57 @@ h1{
     font-size: 40px;
     line-height: 1.5;
     letter-spacing: -.2px;
+    font-weight: ;
 }
 
 .container{
     background-color: beige;
 }
 
-.header{
-    background-color:  #3729b9;
+.info{
+    background-color:#74b9ff;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
 }
 
-.info{
-    height: 50px;
+.horario{
 }
 
 .menu{
+    display: flex;
+    justify-content: space-between;
     background-color:  #2980b9;
     color: white;
+    height: 140px;
+}
+
+ol, ul{
+    margin: 0;
+    list-style: none;
 }
 
 .header a{
     color: white;
     text-decoration: none;
+}
+
+.header ol{
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+
+.header ol li{
+   height: inherit; 
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
 }
 
 .hero{
@@ -41,16 +70,22 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
     height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.products-wrapper{
+    background-color: darkred;
+
 }
 
 .products{
-    background-color: darkred;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .product{
     background-color: green;
-    display: inline-block;
-    width: 25%;
 }
 
 .services{
@@ -70,6 +105,52 @@ h1{
     background-color: green;
 }
 
+.form-seller input{
+    border-color: gray;
+    border-style: solid;
+    padding: 5px 20px 5px 25px;
+    background-image: url(../images/email.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-seller .fbutton{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.form-seller h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact{
+    background-color:  #2980b9;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 300px;
+}
+
 footer{
-    background-color: gray;
+    background-color: #2d3436;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+footer img{
+    width: 300px;
+    background-color: #000000;
 }
